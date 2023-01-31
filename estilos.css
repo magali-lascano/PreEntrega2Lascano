@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+:root{
+    --font1: 'Oswald', sans-serif;
+    --font2: 'Poppins', sans-serif;
+    --color1: #D09CFA;
+    --color2: #4D4C7D;
+}
+
+body{
+    font-size: 22px;
+    background-color: #FAF8F1;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+
+#fondoimg{
+    background-image: url(img/background\ cloud.png);
+    background-size: cover;
+}
+
+/* HEADER */
+nav{
+    background-color: var(--color1);
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+/* HOME */
+/* SERVICIOS */
+#servicios{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+/* PORTAFOLIO */
+.imgproyectos img{
+    height: 300px;
+    width: auto;
+    margin: 40px;
+    padding-left: 700px;
+}
+
+/* CONSULTAS */
+#fondoimg{
+    background-image: url(img/background\ cloud.png);
+    background-size: cover;
+}
+
+fieldset form div label{
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.consultas-contenido{
+    margin-top: 70px;
+}
+
+#consultas{
+    height: 50vh;
+    width: auto;
+    margin-top: 20px;
+    border: none;
+    text-align: center;
+    font-size: 24px;
+}
+
+.contacto-contenido{
+    margin-top: 70px;
+}
+
+#contacto{
+    height: 50vh;
+    width: auto;
+    margin-top: 20px;
+    text-align: center;
+    border: none;
+    font-size: 24px;
+}
+
+/* FOOTER  */
+footer{
+    position: static;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--color2);
+    height: 200px;
+    width: auto;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 70px;
+    color: #fff;
+}
+.contenidofooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.contenidofooter h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 3rem;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: #D09CFA;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #4D4C7D;
+}
