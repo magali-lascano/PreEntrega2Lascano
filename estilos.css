@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
 :root{
@@ -16,11 +16,16 @@ body{
     background-color: #FAF8F1;
     font-family: 'Poppins', sans-serif;
     width: 100%;
+    display: flexbox;
 }
 
 #fondoimg{
     background-image: url(img/background\ cloud.png);
     background-size: cover;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 /* HEADER */
@@ -32,6 +37,43 @@ nav{
 }
 
 /* HOME */
+.container-fluid{
+    width: 100%;
+    overflow: hidden;
+}
+
+h1{
+    padding-top: 50px;
+    font-family: var(--font1);
+}
+
+.clickredes{
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+  
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+
+.clickredes span{
+    font-weight: bold;
+}
+
+.clickredes a{
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+
 /* SERVICIOS */
 #servicios{
     text-align: center;
@@ -43,7 +85,6 @@ nav{
     height: 300px;
     width: auto;
     margin: 40px;
-    padding-left: 700px;
 }
 
 /* CONSULTAS */
@@ -92,11 +133,12 @@ footer{
     right: 0;
     background: var(--color2);
     height: 200px;
-    width: auto;
-    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    font-family: var(--font1);
     padding-top: 70px;
     color: #fff;
 }
+
 .contenidofooter{
     display: flex;
     align-items: center;
@@ -104,6 +146,7 @@ footer{
     flex-direction: column;
     text-align: center;
 }
+
 .contenidofooter h3{
     font-size: 1.8rem;
     font-weight: 400;
@@ -118,18 +161,21 @@ footer{
     justify-content: center;
     margin: 1rem 0 3rem 0;
 }
+
 .socials li{
     margin: 0 10px;
 }
+
 .socials a{
     text-decoration: none;
     color: #fff;
 }
+
 .socials a i{
     font-size: 1.1rem;
     transition: color .4s ease;
-
 }
+
 .socials a:hover i{
     color: aqua;
 }
@@ -140,13 +186,20 @@ footer{
     padding: 20px 0;
     text-align: center;
 }
+
 .footer-bottom p{
     font-size: 14px;
     word-spacing: 2px;
     text-transform: capitalize;
 }
+
 .footer-bottom span{
     text-transform: uppercase;
     font-weight: bold;
     color: #4D4C7D;
+}
+
+/* MQ */
+@media screen and (min-width: 319px) and (max-width: 426px) {
+    
 }
