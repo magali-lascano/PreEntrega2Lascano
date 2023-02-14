@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description=" content="Desarrollo Web de Full Stack Developer - Junior / Realizado por Aylén Magali Lascano - Proyecto CTRL A">
+    <meta name="keywords" content="html, sass, full stack developer, desarrollo web, freelance, programación, portafolio, trabajos, github, proyectos, pagina web">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="../estilos.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -11,37 +13,41 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Ctrl A</title>
 </head>
 <body>
     <header class="barra">
-        <nav class="navbar navbar-expand-md navbar-dark">
-            <a class="navbar-brand" href="#">👾Ctrl<span>A</span></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="../index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="servicios.html">Servicios</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="portafolio.html">Portafolio</a>
-                </li>    
-                <li class="nav-item">
-                  <a class="nav-link" href="consultas.html">Consultas</a>
-                </li>    
-                <li class="nav-item">
-                  <a class="nav-link" href="contacto.html">Contacto</a>
-                </li>    
-              </ul>
-            </div>  
-        </nav>
+      <nav class="navbar navbar-expand-md navbar-dark">
+        <div id="logo"><img src="../img/Ctrl_A.png" alt="Ctrl. A Logo"></div>
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portafolio.html">Portafolio</a>
+            </li>    
+            <li class="nav-item">
+              <a class="nav-link" href="consultas.html">Consultas</a>
+            </li>    
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>    
+          </ul>
+        </div>  
+      </nav>
     </header>
-<main>
+<main id="proyectos">
     <h1 id="title" class="text-center">PROYECTOS REALIZADOS</h1>
     <div id="demo" class="carousel slide" data-ride="carousel">
       <!-- Indicadores -->
@@ -54,16 +60,16 @@
     <!-- Imagenes -->
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img id="proyectos"src="../img/1.png" alt="proyecto daniela sotello">
+          <img id="proyectos" class="img-fluid" src="../img/1.png" alt="proyecto daniela sotello">
         </div>
         <div class="carousel-item">
-          <img id="proyectos"src="../img/2.png" alt="proyecto kinnectric">
+          <img id="proyectos" class="img-fluid" src="../img/2.png" alt="proyecto kinnectric">
         </div>
         <div class="carousel-item">
-          <img id="proyectos"src="../img/3.png" alt="proyecto live and move">
+          <img id="proyectos" class="img-fluid" src="../img/3.png" alt="proyecto live and move">
         </div>
         <div class="carousel-item">
-          <img id="proyectos"src="../img/4.png" alt="proyecto MyxeriaCo">
+          <img id="proyectos" class="img-fluid" src="../img/4.png" alt="proyecto MyxeriaCo">
         </div>
       </div>
       
@@ -75,7 +81,10 @@
         <span class="carousel-control-next-icon"></span>
       </a>
     </div>
-    
+  <div class="repositorio-git">
+    <h2>Te puede interesar...</h2>
+    <p>Repositorio de la pagina en <a href="https://github.com/magali-lascano/PreEntrega2Lascano" target="_blank">GitHub</a></p>
+  </div>
 </main>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -86,12 +95,10 @@
     <div class="contenidofooter">
         <h3>Mis redes</h3>
         <ul class="socials">
-            <li><a href="https://www.facebook.com/amagalilascano/" target="_blank" ><i class="fa fa-facebook"></i></a></li>
-            <li><a href="https://twitter.com/lascanx" target="_blank" ><i class="fa fa-twitter"></i></a></li>
-            <li><a href="https://github.com/magali-lascano" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-              </svg></a></li>
-            <li><a href="https://www.linkedin.com/in/aylen-magali-lascano-a763621a2" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+            <li><a href="https://www.facebook.com/amagalilascano/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="https://twitter.com/lascanx" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="https://github.com/magali-lascano" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/aylen-magali-lascano-a763621a2" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
         </ul>
     </div>
     <div class="footer-bottom">
